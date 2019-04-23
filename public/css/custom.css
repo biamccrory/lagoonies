@@ -6,9 +6,11 @@
 }
 
 .hero-area:before {
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.1);
 }
-
+.hero-area {
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
 .hero-area .block h1 {
 	font-size: 9vw;
 	font-family: 'Abril Fatface', cursive;
@@ -22,7 +24,10 @@
 .hero-area .block .video-button {
 	display: none;
 }
-
+.about-2 .content-block .media h4  {
+	font-size: 1.5rem;
+	font-weight: 400;
+}
 .call-to-action h2 {
 	/* font-family: 'Abril Fatface', cursive; */
 	font-size: 3vw;
@@ -30,7 +35,11 @@
 	color: #fff;
 	margin-bottom: 30px;
 }
-
+.title-row {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
 .works-item {
 	display: flex;
 	width: auto;
@@ -51,6 +60,15 @@
 .client-thumb img {
 	border-radius: 0%;
 	margin: 0 auto;
-	max-width: 600px;
+	max-width: 500px;
 	width: 100%;
+}
+.abstract-section {
+
+}
+.portfolio-block img{
+
+}
+.img-works {
+	background: rgba(0, 0, 0, 0.3);
 }
