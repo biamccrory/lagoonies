@@ -1,0 +1,39 @@
+enable : true
+heading : Abstract
+headingSpan : Gallery
+filterList :
+  - filterType : abstract
+    filterTitle : Abstract
+
+filterList :
+  - filterType : abstract
+    filterTitle : Abstract
+
+abstractItem :
+  - types : abstract
+    image : images/portfolio/angie.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description :
+
+  - types : abstract
+    image : images/portfolio/sodapop.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description :
+
+  - types : abstract
+    image : images/portfolio/poppy.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description :
+
+    - types : abstract
+    image : images/portfolio/pinky.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description :

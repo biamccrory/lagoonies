@@ -1,0 +1,42 @@
+{{ if .Site.Data.works.enable}}
+{{"<!-- Works Section -->" | safeHTML}}
+<section class="works section" id="works">
+	<div class="container">
+		<div class="row ">
+			<div class="col-xl-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center">
+					<h2> {{ with .Site.Data.works.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.works.headingSpan }} {{ . }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+				{{"<!-- /section title -->" | safeHTML}}
+			</div>
+		</div>
+		<div class="row title-row">
+			{{/*  <button type="button" data-filter="all">All</button>  */}}
+			<!-- {{ range .Site.Data.works.filterList }} -->
+			<!-- <button type="button" data-filter="{{ .filterType }}">{{ .filterTitle }}</button> -->
+			<!-- {{ end }} -->
+			{{ range .Data.Pages }}
+			<h4 class=""><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+			{{ end }}
+		</div>
+		<div class="row">
+			{{ range .Site.Data.works.worksItem }}
+			<div class="col-lg-3 filtr-item" data-category="{{ .types }}">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid" src="{{ .image | absURL}}" alt="work-image">
+					<div class="caption">
+						<a class="search-icon" href="{{ .Permalink }}">
+							<i class="{{ .icon }}"></i>
+						</a>
+						<h4><a href="{{ .Permalink }}">{{ .title }}</a></h4>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{"<!-- /Works Section -->" | safeHTML}}
+{{ end }}

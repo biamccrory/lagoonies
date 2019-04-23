@@ -1,0 +1,17 @@
+enable : false
+bgImage :
+testimonialItem :
+  - name : Blu
+    image : images/portfolio/blu-abstract.jpg
+    date :
+    content :
+
+  - name : Circles
+    image : images/portfolio/circles-abstract.jpg
+    date :
+    content :
+
+  - name : Lines
+    image : images/portfolio/lines-abstract.jpg
+    date :
+    content :

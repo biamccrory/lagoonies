@@ -1,0 +1,42 @@
+enable : true
+heading : Other
+headingSpan : Works
+title: "Other Works"
+filterList :
+  - filterType : abstract
+    filterTitle : Abstract
+    URL : "#/work/abstract"
+
+  - filterType : portraits
+    filterTitle : Portraits
+
+  - filterType : awards
+    filterTitle : Awards
+
+  - filterType : events
+    filterTitle : Events
+
+
+worksItem :
+  - types : works
+    title : Abstract Gallery
+    image : images/portfolio/circles-abstract.jpg
+
+
+
+  - types : works
+    title : Portraits Gallery
+    image : images/portfolio/dog.jpg
+    url: "/portraits"
+
+
+  - types : works
+    title : Awards Gallery
+    image : images/portfolio/boy-banner.jpg
+    url: "/events"
+
+
+  - types : works
+    title : Events Gallery
+    image : images/portfolio/cutout.jpg
+    url: "/events"

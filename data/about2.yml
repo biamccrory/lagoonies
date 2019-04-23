@@ -1,0 +1,20 @@
+enable : true
+image : images/about/studio.jpg
+title : Colleen in her Laguna Beach studio
+description : Collen has been a resident artist in Laguna Beach for over three decades.  There are four permanent installation of her work in downtown Laguna.  She has also won the Laguna Beach banner and pallet contests numerous times.
+aboutItem :
+  - icon :
+    title : Cartoon
+    content : Colleen began her proffesional career with the popular cartoon series known internationaly as Lagoonies!
+
+  - icon :
+    title : Abstract
+    content : In addition to her cartoon work, Colleen also has produced an impressive body of abstract works
+
+  - icon :
+    title : Portraits
+    content : Colleen also paints custom human and pet portraits
+
+  - icon :
+    title : ....and everything else
+    content : And theres more!  Colleen also paints, murals, wood cutouts for events, art classes and special events!

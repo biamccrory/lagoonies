@@ -1,3 +1,137 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Lagoonies"
+
+[taxonomies]
+author = "author"
+category = "categories"
+tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Service"
+    URL = "services"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Portfolio"
+    URL = "portfolio"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Team"
+    URL = "our-team"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Pricing"
+    URL = "pricing"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "blog"
+    weight = 7
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 8
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Lagoonies"
+author = "Bia"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/hero-area.jpg"
+    icon = "tf-ion-play"
+    heading = "Lagoonies!"
+    content= "Wimsical kritters by artist Colleen Corbet"
+    btn = true
+    btnText= "Explore"
+    btnURL= "#services"
+
+    # call to action
+    [params.cta]
+    enable = true
+    title = "Book a Class Or Special Event"
+    content = ""
+    btnURL = "#contact-us"
+    btnText = "Events"
+
+    # counter
+    [params.counter]
+    enable = false
+
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Abstract"
+        icon = "tf-ion-android-happy"
+        # count = "320"
+        btnText= "View"
+        btnURL= "#contact-us"
+
+        [[params.counter.counterItem]]
+        title = "Portraits"
+        icon = "tf-ion-archive"
+        # count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Awards"
+        icon = "tf-ion-thumbsup"
+        # count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Special Events"
+        icon = "tf-ion-coffee"
+        # count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = "Lagoonies"
+        copyrightURL = ""
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-google-outline"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-dribbble-outline"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-pinterest-outline"
+        url = "#"

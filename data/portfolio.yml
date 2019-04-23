@@ -1,0 +1,115 @@
+enable : true
+heading : The
+headingSpan : Lagoonies!
+filterList :
+  - filterType : lagoonies
+    filterTitle : The Lagoonies!
+
+
+
+portfolioItem :
+  - types : lagoonies
+    image : images/portfolio/angie.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Angie
+    description :
+
+  - types : lagoonies
+    image : images/portfolio/blob.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Angie
+    description :
+
+  - types : lagoonies
+    image : images/portfolio/devlin.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Sound system
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+  - types : lagoonies
+    image : images/portfolio/nail-biter.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Clock Product
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+  - types : lagoonies
+    image : images/portfolio/ollie.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Bottol Label
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+  - types : lagoonies
+    image : images/portfolio/pinky.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Shopping Bag
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+  - types : lagoonies
+    image : images/portfolio/pirate-fish.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+  - types : lagoonies
+    image : images/portfolio/poppy.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Business Card
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+  - types : lagoonies
+    image : images/portfolio/puff-ball.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Stationary Design
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+  - types : lagoonies
+    image : images/portfolio/sodapop.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description :
+
+  - types : lagoonies
+    image : images/portfolio/swim.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description :
+
+  - types : lagoonies
+    image : images/portfolio/vegetarian-piranha.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description :
+
+
+  #   - types : abstract
+  #   image : images/portfolio/circles-abstract.jpg
+  #   icon : tf-ion-android-search
+  #   URL : #
+  #   title : Tag Design
+  #   description :
+
+  # - types : abstract
+  #   image : images/portfolio/lines-abstract.jpg
+  #   icon : tf-ion-android-search
+  #   URL : #
+  #   title : Tag Design
+  #   description :
+
+  # - types : abstract
+  #   image : images/portfolio/blu-abstract.jpg
+  #   icon : tf-ion-android-search
+  #   URL : #
+  #   title : Tag Design
+  #   description :
